@@ -57,9 +57,6 @@ class CatalogViewModel @Inject constructor(
         }
     }
 
-    // Что за идиотизм? Нельзя возвращать ссылку на изображение в json или типа джуны не
-    // должны уметь в AsyncImage?
-    // Кто вообще хардкодит изображения???
     private fun addImages() {
         for (item in allItems) {
             when (item.id) {
